@@ -89,7 +89,7 @@
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="Laser.cpp" />
     <ClCompile Include="Meteor.cpp" />
-    <ClCompile Include="MeteorSpawer.cpp" />
+    <ClCompile Include="MeteorSpawner.cpp" />
     <ClCompile Include="MyGame.cpp" />
     <ClCompile Include="Ship.cpp" />
   </ItemGroup>
@@ -102,13 +102,22 @@
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="Laser.h" />
     <ClInclude Include="Meteor.h" />
-    <ClInclude Include="MeteorSpawer.h" />
+    <ClInclude Include="MeteorSpawner.h" />
     <ClInclude Include="ship.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Resources\explosion01.png" />
+    <Image Include="Resources\explosion02.png" />
+    <Image Include="Resources\explosion03.png" />
+    <Image Include="Resources\explosion04.png" />
+    <Image Include="Resources\explosion05.png" />
+    <Image Include="Resources\explosion06.png" />
+    <Image Include="Resources\explosion07.png" />
+    <Image Include="Resources\explosion08.png" />
+    <Image Include="Resources\explosion09.png" />
     <Image Include="Resources\laser.png" />
     <Image Include="Resources\meteor.png" />
     <Image Include="Resources\ship.png" />
