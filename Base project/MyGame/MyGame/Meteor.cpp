@@ -1,6 +1,6 @@
 #include "Meteor.h"
 
-const float SPEED = 0.25f;
+; const float SPEED = 0.25f;
 
 Meteor::Meteor(sf::Vector2f pos)
 {
@@ -14,7 +14,8 @@ void Meteor::draw()
 	GAME.getRenderWindow().draw(sprite_);
 }
 
-void Meteor::update(sf::Time& elapsed) {
+void Meteor::update(sf::Time& elapsed) 
+{
 	int msElapsed = elapsed.asMilliseconds();
 	sf::Vector2f pos = sprite_.getPosition();
 	if (pos.x < sprite_.getGlobalBounds().width * -1)
