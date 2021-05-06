@@ -1,4 +1,8 @@
 #include "Meteor.h"
+#include "Explosion.h"
+#include <chrono>
+#include <thread>
+
 
 ; const float SPEED = 0.25f;
 
@@ -39,16 +43,5 @@ void Meteor::handleCollision(GameObject& otherGameObject)
 	{
 		otherGameObject.makeDead();
 	}
-	sprite_.setTexture(GAME.getTexture("Resources/explosion01.png"));
-	GAME.getRenderWindow().draw(sprite_);
-	sprite_.setTexture(GAME.getTexture("Resources/explosion02.png"));
-	GAME.getRenderWindow().draw(sprite_);
-	sprite_.setTexture(GAME.getTexture("Resources/explosion03.png"));
-	sprite_.setTexture(GAME.getTexture("Resources/explosion04.png"));
-	sprite_.setTexture(GAME.getTexture("Resources/explosion05.png"));
-	sprite_.setTexture(GAME.getTexture("Resources/explosion06.png"));
-	sprite_.setTexture(GAME.getTexture("Resources/explosion07.png"));
-	sprite_.setTexture(GAME.getTexture("Resources/explosion08.png"));
-	sprite_.setTexture(GAME.getTexture("Resources/explosion09.png"));
 	makeDead();
 }
