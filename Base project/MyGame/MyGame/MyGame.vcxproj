@@ -87,6 +87,9 @@
     <ClCompile Include="Engine\GameObject.cpp" />
     <ClCompile Include="Engine\Scene.cpp" />
     <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="FileUtility.cpp" />
+    <ClCompile Include="GameOverMessage.cpp" />
+    <ClCompile Include="GameOverScene.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="Laser.cpp" />
     <ClCompile Include="Meteor.cpp" />
@@ -102,6 +105,9 @@
     <ClInclude Include="Engine\GameObject.h" />
     <ClInclude Include="Engine\Scene.h" />
     <ClInclude Include="Explosion.h" />
+    <ClInclude Include="FileUtility.h" />
+    <ClInclude Include="GameOverMessage.h" />
+    <ClInclude Include="GameOverScene.h" />
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="Laser.h" />
     <ClInclude Include="Meteor.h" />
@@ -129,6 +135,12 @@
   </ItemGroup>
   <ItemGroup>
     <Media Include="Resources\boom.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\Courneuf-Regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="score_record.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -8,13 +8,13 @@ const int FIRE_DELAY = 200;
 void Ship::update(sf::Time& elapsed) {
 	sf::Vector2f pos = sprite_.getPosition();
 	//up boundary
-	float negYbound = 0;
+	float negYbound = -50;
 	//down boundary
-	float posYbound = 480;
+	float posYbound = 530;
 	//left boundary
 	float negXbound = 0;
 	//right boundary
-	float posXbound = 200;
+	float posXbound = 500;
 	float x = pos.x;
 	float y = pos.y;
 	int msElapsed = elapsed.asMilliseconds();
