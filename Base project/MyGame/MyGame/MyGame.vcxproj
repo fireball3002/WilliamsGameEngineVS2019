@@ -82,6 +82,7 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Background.cpp" />
     <ClCompile Include="Engine\AnimatedSprite.cpp" />
     <ClCompile Include="Engine\Game.cpp" />
     <ClCompile Include="Engine\GameObject.cpp" />
@@ -97,8 +98,11 @@
     <ClCompile Include="MyGame.cpp" />
     <ClCompile Include="Score.cpp" />
     <ClCompile Include="Ship.cpp" />
+    <ClCompile Include="Stars.cpp" />
+    <ClCompile Include="Starspawner.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Background.h" />
     <ClInclude Include="Engine\AnimatedSprite.h" />
     <ClInclude Include="Engine\Game.h" />
     <ClInclude Include="Engine\GameEngine.h" />
@@ -114,11 +118,14 @@
     <ClInclude Include="MeteorSpawner.h" />
     <ClInclude Include="Score.h" />
     <ClInclude Include="ship.h" />
+    <ClInclude Include="Stars.h" />
+    <ClInclude Include="Starspawner.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Resources\background.png" />
     <Image Include="Resources\explosion-spritesheet.png" />
     <Image Include="Resources\explosion01.png" />
     <Image Include="Resources\explosion02.png" />
@@ -132,6 +139,7 @@
     <Image Include="Resources\laser.png" />
     <Image Include="Resources\meteor.png" />
     <Image Include="Resources\ship.png" />
+    <Image Include="Resources\star.png" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="Resources\boom.wav" />

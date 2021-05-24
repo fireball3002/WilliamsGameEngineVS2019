@@ -24,6 +24,9 @@
     <ClCompile Include="GameOverMessage.cpp" />
     <ClCompile Include="GameOverScene.cpp" />
     <ClCompile Include="FileUtility.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="Stars.cpp" />
+    <ClCompile Include="Starspawner.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\AnimatedSprite.h">
@@ -51,6 +54,9 @@
     <ClInclude Include="GameOverMessage.h" />
     <ClInclude Include="GameOverScene.h" />
     <ClInclude Include="FileUtility.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="Stars.h" />
+    <ClInclude Include="Starspawner.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Engine">
@@ -105,6 +111,10 @@
     <Image Include="Resources\explosion-spritesheet.png">
       <Filter>Resources</Filter>
     </Image>
+    <Image Include="Resources\background.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\star.png" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="Resources\boom.wav">
